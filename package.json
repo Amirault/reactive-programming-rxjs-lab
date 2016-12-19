@@ -1,7 +1,7 @@
 {
-  "name": "reactive-lab-rxjs-4",
+  "name": "reactive-programming-rxjs-lab",
   "version": "1.0.0",
-  "description": "RxJS 4 Lab",
+  "description": "Reactive Programming with RxJS 4",
   "main": "index.js",
   "dependencies": {
     "node-fetch": "^1.6.3",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luut/reactive-lab-rxjs-4.git"
+    "url": "git+https://github.com/luut/reactive-programming-rxjs-lab.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luut/reactive-lab-rxjs-4/issues"
+    "url": "https://github.com/luut/reactive-programming-rxjs-lab/issues"
   },
-  "homepage": "https://github.com/luut/reactive-lab-rxjs-4#readme",
+  "homepage": "https://github.com/luut/reactive-programming-rxjs-lab#readme",
   "devDependencies": {
     "json-server": "^0.9.2"
   }
