@@ -1,0 +1,28 @@
+{
+  "name": "reactive-lab-rxjs-4",
+  "version": "1.0.0",
+  "description": "RxJS 4 Lab",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "rx": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "city-service": "json-server --watch data/cities.json --port 8080 --routes cities-routes.json",
+    "pokemon-service": "json-server --watch data/pokemons.json --port 8080 --routes pokemons-routes.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luut/reactive-lab-rxjs-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luut/reactive-lab-rxjs-4/issues"
+  },
+  "homepage": "https://github.com/luut/reactive-lab-rxjs-4#readme",
+  "devDependencies": {
+    "json-server": "^0.9.2"
+  }
+}
