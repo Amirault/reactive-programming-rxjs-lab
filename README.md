@@ -58,6 +58,13 @@ http://localhost:8080/api/pokemons?fr=Roucool
 $ npm install --save-dev node-fetch
 ```
 
+## Install Crazymail
+
+https://github.com/koopero/crazymail
+
+npm install -g crazymail
+npm install --save-dev crazymail
+
 
 ## Reactive Manifesto
 

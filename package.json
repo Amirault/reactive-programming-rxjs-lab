@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "city-service": "json-server --watch data/cities.json --port 8080 --routes cities-routes.json",
-    "pokemon-service": "json-server --watch data/pokemons.json --port 8080 --routes pokemons-routes.json"
+    "pokemon-service": "json-server --watch data/pokemons.json --port 8080 --routes pokemons-routes.json",
+    "crazymail": "crazymail server -v"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/luut/reactive-programming-rxjs-lab#readme",
   "devDependencies": {
+    "crazymail": "^0.6.0",
     "json-server": "^0.9.2"
   }
 }
